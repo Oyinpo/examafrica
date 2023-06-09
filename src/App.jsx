@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Register from './Pages/Register';
-import LogIn from './Pages/Login';
+import LogIn from './Pages/LogIn';
 import LinkUp from './Pages/LinkUp';
 
 
