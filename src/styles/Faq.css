@@ -1,0 +1,258 @@
+@font-face {
+    font-family: 'Clash Display Variable';
+    src: url("./ClashDisplay-Variable.ttf");
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+
+
+.faq-top{
+    width: 950px;
+    height: 300px;
+    margin-left: 130px;
+    margin-top: 50px;
+    padding: 80px;
+    font-size: x-large;
+    color: #ffffff;
+    background-color: #002099;
+}
+.faq-top h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Clash Display Variable';
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 37px;
+}
+
+.faq-top h4{
+    margin-top: 50px;
+    font-family: 'Clash Display Variable';
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.faq-top h6{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.register{
+    width: 450px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 130px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 17px rgba(0, 7, 15, 0.13);
+    border-radius: 4px;
+}
+
+.register h6{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.register2{
+    display: flex;
+    margin-right: 110px;
+}
+
+.drop1{
+    width: 450px;
+    margin-left: 130px;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding-left: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 17px rgba(0, 7, 15, 0.13);
+    border-radius: 4px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.feed{
+    width: 1000px;
+    margin-left: 200px;
+    margin-top: 50px;
+    display: flex;
+   justify-content: center;
+   font-family: 'Clash Display Variable';
+   font-weight: 600;
+    font-size: 23px;
+
+}
+.line3{
+    width: 70px;
+    border-bottom: 1px solid #5C5C5C;
+    position: relative;
+    right: 285px;
+    top: 12px;
+}
+
+.view{
+    width: 170px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1178FF;
+    color: #FFFFFF;
+    border-radius: 3px;
+    border: none;
+}
+
+
+.exam-book{
+    margin-left: 50px;
+    display: flex;
+}
+
+.foot{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main-foot{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+   
+}
+
+.footex{
+    display: flex;
+    justify-content: center;
+}
+
+.know{
+    width: 60%;
+    margin-left: 280px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+}
+
+.rights{
+    display: flex;
+    color: #FFFFFF;
+    background-color: #002099;
+}
+.rights h5{
+    margin-left: 150px;
+}
+
+@media screen and (max-width:500px) {
+    .faq-top{
+        width: 400px;
+        height: 250px;
+        margin-left: 20px;
+        margin-top: 100px;
+        padding: 30px;
+        font-size: x-large;
+        color: #ffffff;
+        background-color: #002099;
+    }
+    .faq-top h2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .faq-top h4{
+        margin-top: 50px;
+    }
+    .register{
+        width: 400px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 15px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 17px rgba(0, 7, 15, 0.13);
+        border-radius: 4px;
+        font-size: large;
+    }
+    
+    .register2{
+        display: flex;
+        margin-right: 5px;
+    }
+    
+    .feed{
+        width: 400px;
+        margin-left: 10px;
+        margin-top: 50px;
+        display: flex;
+       justify-content: center;
+    }
+    
+    .view{
+        width: 180px;
+        height: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #1178FF;
+        color: #FFFFFF;
+        border-radius: 3px;
+        border: none;
+    }
+    
+    
+    .exam-book{
+        margin-left: 50px;
+        display: flex;
+    }
+    
+    .foot{
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .main-foot{
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+       
+    }
+    
+    .footex{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .know{
+        width: 60%;
+        margin-left: 280px;
+    }
+    
+    .socials{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .rights{
+        display: flex;
+        color: #FFFFFF;
+        background-color: #002099;
+    }
+    .rights h5{
+        margin-left: 150px;
+    }
+    
+
+}

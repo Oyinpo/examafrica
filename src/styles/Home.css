@@ -1,0 +1,821 @@
+@font-face {
+    font-family: 'Clash Display Variable';
+    src: url("./ClashDisplay-Variable.ttf");
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+
+
+.practice{
+    width: 650px;
+    height: 100px;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    margin-left: 130px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Clash Display Variable';
+}
+
+.practice img{
+    margin-right: 90px;
+}
+.practice h1{
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 70%; 
+}
+
+.prepare{
+    width: 600px;
+    height: 130px;
+    margin-bottom: 5px;
+    margin-left: 130px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Clash Display Variable';
+}
+
+.prepare h1{
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 70%; 
+    margin-right: 35px;
+}
+
+.excel{
+    width: 500px;
+    height: 150px;
+    margin-left: 130px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Clash Display Variable';
+}
+.excel h1{
+    font-size: 80px;
+    margin-top: 5px;
+}
+
+
+.wassce{
+    width: 300px;
+    margin-left: 30px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 19px;
+}
+
+.waec{
+    width: 300px;
+    height: 40px;
+    margin-right: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.waec button{
+    width: 90px;
+    border-radius: 16px;
+    border: 1px solid grey;
+}
+
+.neco{
+    width: 300px;
+    height: 50px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.neco button{
+    margin-right: 5px;
+    border: 1px solid grey;
+}
+
+.guy{
+    margin-top: 70px;
+    margin-left: 0px;
+}
+.guy-exam{
+    display: flex;
+}
+
+.wel-get{
+    margin-left: 130px;
+    margin-bottom: 20px;
+    width: 600px;
+    font-family: 'Mulish', sans-serif;
+}
+.wel-get h3{
+    width: 550px;
+    font-size: medium;
+}
+.get-start{
+    width: 400px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.past-mock{
+    margin-top: 50px;
+    width:  100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #002099;
+}
+
+.inner-mock{
+    width: 80%;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+ .mockex, .trackac, .affor{
+ border-left: 3px solid #002099;
+ height:  70px;
+ margin-right: 10px;
+ padding: 20px;
+}
+
+/* main */
+.best{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    margin-top: 50px;
+    font-family: 'Clash Display Variable';
+}
+
+.chocate{
+    height: 250px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 130px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.cate{
+    margin-left: 100px;
+}
+.chose{
+    width: 35%;
+    margin-right: 150px;
+    margin-top: 80px;
+    font-size: large;
+    color: #000513;
+}
+.line{
+    margin-top: 20px;
+    width: 13%;
+    border: 1px solid #0B2239;
+} 
+ 
+.prefer{
+    height: 250px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Mulish', sans-serif;
+}
+
+.lappy{
+    margin-right: 200px;
+
+}
+.sele{
+    width: 33%;
+    margin-left: 100px;
+    margin-top: 35px;
+    font-size: large;
+    color: #000513;
+}
+.line1{
+    margin-top: 20px;
+    width: 13%;
+    border: 1px solid #0B2239;
+} 
+ 
+
+.attexam{
+    height: 250px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 130px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Mulish', sans-serif;
+
+}
+.attend{
+    margin-left: 180px;
+}
+
+.attex{
+    width: 35%;
+    margin-right: 180px;
+    margin-top: 100px;
+    font-size: large;
+    color: #000513;
+}
+
+.line2{
+    margin-top: 20px;
+    width: 13%;
+    border: 1px solid #DC4D04;
+} 
+ 
+
+.joyful{
+    height: 250px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Mulish', sans-serif;
+}
+
+.joy{
+    margin-right: 280px;
+    margin-top: 30px;
+}
+
+.smile{
+    width: 33%;
+    margin-left: 80px;
+    margin-top: 80px;
+    font-size: large;
+    color: #000513;
+   
+}
+
+.app{
+    margin-top: 50px;
+    width:  100%;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #002099;
+}
+
+.avail{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Clash Display Variable';
+}
+
+.app-home{
+    width: 1200px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 15px;
+    background-color: #1D3797;
+    border-radius: 24px;
+}
+.web{
+    height:  70px;
+    margin-right: 10px;
+    padding: 30px; 
+}
+.store, .play, .tele, .whats{
+    border-left: 3px solid #ffffff;
+    height:  70px;
+    margin-right: 10px;
+    padding: 30px;
+}
+
+.popular{
+    color: #0B2239;
+    margin-top: 80px;
+}
+.popular h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Clash Display Variable';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.precise{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+}
+.line-1{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.neco-1{
+    width:  250px;
+    height: 100px;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 50px rgba(11, 34, 57, 0.14);
+    border-radius: 4px;
+    margin-left: 10px;
+    padding: 15px;
+    font-family: 'Mulish', sans-serif;
+}
+.neco-1 h4{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.neco-1 h6{
+    margin-top: 10px;
+}
+
+.neco-1 p{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+.afriplat{
+        margin-top: 100px;
+}
+.afriplat h2{
+    width: 280px;
+    margin-left: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-family: 'Clash Display Variable';
+
+}
+
+.afriplat p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.frame{
+    display: flex;
+    justify-content: center;
+    background-image: url(book-library-with-old-open-textbook-stack-piles-literature-text-archive-reading-desk.jpg);
+}
+
+/* footer */
+.foot{
+    background-color: #00070F;
+    color: #FFFFFF;
+   padding-bottom: 50px;
+}
+
+.main-foot{
+    width: 92.5%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.main-foot h4{
+    margin-bottom: 10px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+.main-foot h6{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size:  16px;
+    line-height: 20px;
+}
+
+.footex{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.know{
+    width: 60%;
+    margin-left: 280px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 100;
+}
+
+.socials{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.rights{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #002099;
+}
+.rights h5{
+    margin-left: 150px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.main-foot a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: medium;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size:  16px;
+    line-height: 20.08px;
+}
+.fofaq{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:600px) {
+    .guy-exam{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .practice{
+        width: 480px;
+        height: 150px;
+        margin-top: 20px;
+        margin-left: 10px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .practice h1{
+        font-size: 60px;        
+    }
+    .practice img{
+        margin-left: 15px;
+    }
+    .prepare{
+        width: 480px;
+        height: 150px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 1px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .prepare h1{
+        font-size: 60px;
+    }
+    
+    .excel{
+        width: 400px;
+        height: 150px;
+        margin-left: 1px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .excel h1{
+        font-size: 52px;
+        margin-top: 15px;
+    }
+    
+    
+    .wassce{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .waec{
+        width: 300px;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .waec button{
+        width: 90px;
+        border-radius: 20px;
+    }
+    
+    .neco{
+        width: 300px;
+        height: 50px;
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .guy{
+        position: relative;
+        left: 40px;
+    }
+    
+
+    
+.wel-get{
+    position: relative;
+    right: 120px;
+    margin-bottom: 20px;
+ }
+
+ .wel-get h3{
+    font-size: small;
+ }
+ .get-start{
+     width: 400px;
+     margin-top: 20px;
+     margin-left: 5px;
+     display: flex;
+     justify-content: space-between; 
+ }
+
+ .past-mock{  
+     height: 800px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+     background-color: #002099;
+ }
+ 
+ .inner-mock{
+     width: 60%;
+     height: 500px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+     background-color: white;
+ }
+ .pasque, .mockex, .trackac, .affor{
+  border: none;
+  border-bottom: 3px solid  #002099;
+  height:  70px;
+ }
+
+ /* main */
+ 
+ 
+ .chocate{
+    width: 100%;
+     height: 550px;
+     display: flex;
+     flex-direction: column;
+     position: relative;
+     right: 100px;
+ }
+ 
+ .chose{
+    width: 400px;
+     font-size: large;
+     color: #000513;
+     border: none;
+ }
+  
+    .prefer{
+        width: 100%;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 100px;
+    }
+    
+    .sele{
+        width: 400px;
+        margin-top: 20px;
+        position: relative;
+        right: 30px;
+        font-size: large;
+        color: #000513;
+        border: none;
+
+    }
+    .lappy{
+        margin-top: 50px;
+        margin-left: 110px;
+    }
+    
+    .attexam{
+        width: 100%;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 200px;
+    }
+    
+    .attend{
+        margin-left: 100px;
+    }
+    .attex{
+        width: 400px;
+        margin-left: 150px;
+        margin-top: 20px;
+        font-size: large;
+        color: #000513;
+        border: none;
+
+    }
+    
+    .joyful{
+        width: 100%;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 180px;
+    }
+    .smile{
+        width: 400px;
+        margin-top: 20px;
+        position: relative;
+        left: 25px;
+        font-size: large;
+        color: #000513;
+    }
+    .joy{
+        margin-left: 220px;
+    }
+    
+    .app{
+        margin-top: 50px;
+        width:  100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #002099;
+    }
+   
+    .app-home{
+        width: 50%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #1D3797;
+        border-radius: 5px;
+        position: relative;
+        right: 5px;
+        top: 10px;
+        
+    }
+    .web, .store, .play, .tele{
+        border: none;
+        border-bottom: 3px solid #ffffff;;
+        height:  60px;
+        margin-right: 10px;
+    }
+    .whats{
+        border: none;
+    }
+    .popular{
+        color: #0B2239;
+        margin-top: 80px;
+    }
+ 
+    .popular p{
+        margin-left:  10px;
+    }
+    
+    .line-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 100px;
+        
+    }
+    
+    .neco-1{
+        width:  250px;
+        height: 80px;
+        background-color: #ffffff;
+        box-shadow: 10px 10px 50px rgba(11, 34, 57, 0.14);
+        border-radius: 4px;
+        margin-left: 10px;
+        padding: 15px;
+        margin-top: 10px;
+    }
+    
+    .neco-1 h6{
+        margin-top: 10px;
+    }
+    
+    .neco-1 p{
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .afriplat{
+            margin-top: 50px;
+    }
+    .afriplat h2{
+        position: relative;
+        right: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: x-large;
+    }
+    
+    .afriplat p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        margin-bottom: 50px;
+    }
+    
+    .frame{
+        width: 0px;
+        height: 300px;
+        margin-left: 150px;
+        display: flex;
+        justify-content: center;
+        background-image: url(book-library-with-old-open-textbook-stack-piles-literature-text-archive-reading-desk.jpg);
+    }
+    
+    /* footer */
+
+    .know{
+        position: relative;
+        right: 170px;
+    }
+    .socials{
+        margin-right: 20px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .main-foot{
+        width: 420px;
+        font-size: medium;
+        font-weight: 100;
+        justify-content: space-between;
+    }
+    .rights{
+    
+        height: 50px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        background-color: #002099;
+    }
+   .rights h5{
+ 
+    position: relative;
+    right: 140px;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 23px;
+   }
+}

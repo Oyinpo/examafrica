@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+
+
+
+.log-in{
+    width: 90%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 14px
+}
+
+.log-in a{
+    text-decoration: none;
+}
+
+
+.logco{
+    margin-left: 75px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+ 
+}
+
+.dont{
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+    color: #00070F;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+}
+.uselog{
+    margin-left: 600px;
+    margin-bottom: 20px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.passlog{
+    margin-left: 600px;
+    margin-bottom: 20px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+/* .passlog input{
+    padding: 10px;
+} */
+.passleg{
+    display: flex;
+    flex-direction: column;
+}
+.usepass{
+    position: relative;
+    right: 120px;
+}
+.usepass h3{
+    margin-bottom: 10px;
+}
+.login input{
+    border: 1px solid #E0E0E0;
+    padding: 10px;
+
+}
+.forgot{
+    margin-top: 10px;
+    margin-left: 270px;
+    color: #1178FF;
+}
+.lognow{
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1178FF;
+    color: #FFFFFF;
+    border-radius: 3px;
+    border: none;
+}
+
+.logdown{
+    width: 650px;
+    margin-top: 80px;
+    margin-left: 350px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+
+/* a{
+    text-decoration: none;
+} */
+
+@media screen and (max-width:500px) {
+    .log-in{
+        width: 85%;
+        padding: 10px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    
+    .logco{
+        margin-left: 30px;
+    }
+    
+    .uselog{
+        margin-top: 50px;
+        margin-left: 120px;
+        margin-bottom: 20px;
+    }
+    
+    /* .passlog{
+        margin-left: 120px;
+        margin-bottom: 20px;
+    }
+    .usepass{
+        position: relative;
+        right: 80px;
+    }
+    .forgot{
+        margin-left: 140px;
+    }
+    .lognow{
+        height: 50px;
+        margin-top: 20px;
+        margin-left: 120px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #1178FF;
+        color: #FFFFFF;
+        border-radius: 3px;
+        border: none;
+    }
+    
+    .logdown{
+      width: 480px;
+        margin-left: 1px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    .dont{
+        position: relative;
+        left: 50px;
+    } */
+    .passleg{
+       
+        /* position: relative;
+        left: 50px; */
+        background-color: aqua;
+    }
+
+
+}
