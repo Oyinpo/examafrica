@@ -126,11 +126,11 @@
     
     .uselog{
         margin-top: 50px;
-        margin-left: 120px;
+      margin-left: 120px;
         margin-bottom: 20px;
     }
     
-    /* .passlog{
+    .passlog{
         margin-left: 120px;
         margin-bottom: 20px;
     }
@@ -164,12 +164,12 @@
     .dont{
         position: relative;
         left: 50px;
-    } */
+    }
     .passleg{
        
-        /* position: relative;
-        left: 50px; */
-        background-color: aqua;
+        position: relative;
+        left: 0px;
+
     }
 
 

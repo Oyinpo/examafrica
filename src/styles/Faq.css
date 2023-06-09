@@ -157,7 +157,7 @@
     .faq-top{
         width: 400px;
         height: 250px;
-        margin-left: 20px;
+        margin-left: 10px;
         margin-top: 100px;
         padding: 30px;
         font-size: x-large;
@@ -188,12 +188,26 @@
     
     .register2{
         display: flex;
+        flex-direction: column;
         margin-right: 5px;
+    }
+    
+    .drop1{
+        width: 410px;
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+        height: 80px;
+        padding-left: 30px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 17px rgba(0, 7, 15, 0.13);
+        border-radius: 4px;
+        font-family: 'Mulish', sans-serif;
     }
     
     .feed{
         width: 400px;
-        margin-left: 10px;
+        margin-left: 100px;
         margin-top: 50px;
         display: flex;
        justify-content: center;

@@ -478,17 +478,17 @@ line-height: 19px;
     flex-direction: column;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:500px) {
     .guy-exam{
         display: flex;
         flex-direction: column;
-       
     }
     .practice{
-        width: 480px;
+        width: 450px;
         height: 150px;
-        margin-top: 20px;
-        margin-left: 10px;
+        margin-top: 180px;
+        position: relative;
+        right: 100px;
         display: flex;
         justify-content: space-evenly;
     }
@@ -637,7 +637,7 @@ line-height: 19px;
 
     }
     .lappy{
-        margin-top: 50px;
+        /* margin-top: 50px; */
         margin-left: 110px;
     }
     
@@ -673,7 +673,6 @@ line-height: 19px;
     }
     .smile{
         width: 400px;
-        margin-top: 20px;
         position: relative;
         left: 25px;
         font-size: large;
@@ -711,7 +710,7 @@ line-height: 19px;
     .web, .store, .play, .tele{
         border: none;
         border-bottom: 3px solid #ffffff;;
-        height:  60px;
+        height:  50px;
         margin-right: 10px;
     }
     .whats{
@@ -724,6 +723,7 @@ line-height: 19px;
  
     .popular p{
         margin-left:  10px;
+        width: 400px;
     }
     
     .line-1{
@@ -781,6 +781,7 @@ line-height: 19px;
         display: flex;
         justify-content: center;
         background-image: url(book-library-with-old-open-textbook-stack-piles-literature-text-archive-reading-desk.jpg);
+        visibility: hidden;
     }
     
     /* footer */
@@ -811,11 +812,10 @@ line-height: 19px;
         background-color: #002099;
     }
    .rights h5{
- 
-    position: relative;
-    right: 140px;
-    font-weight: 100;
-    font-size: 15px;
-    line-height: 23px;
+        position: relative;
+        right: 130px;
+        font-weight: 100;
+        font-size: 15px;
+        line-height: 23px;
    }
 }
