@@ -484,11 +484,11 @@ line-height: 19px;
         flex-direction: column;
     }
     .practice{
-        width: 450px;
+        width: 400px;
         height: 150px;
         margin-top: 180px;
         position: relative;
-        right: 100px;
+        right: 80px;
         display: flex;
         justify-content: space-evenly;
     }
@@ -497,31 +497,38 @@ line-height: 19px;
         font-size: 60px;        
     }
     .practice img{
+        width: 80px;
+        height: 80px;
         margin-left: 15px;
     }
     .prepare{
-        width: 480px;
+        width: 420px;
         height: 150px;
         margin-top: 50px;
         margin-bottom: 20px;
-        margin-left: 1px;
+        margin-left: 10px;
         display: flex;
         justify-content: space-evenly;
     }
     .prepare h1{
         font-size: 60px;
     }
-    
+    .prepare img{
+        width: 80px;
+        height: 80px;
+        margin-left: 15px;
+    }
     .excel{
         width: 400px;
         height: 150px;
-        margin-left: 1px;
+        margin-left: 20px;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
     }
     .excel h1{
-        font-size: 52px;
-        margin-top: 15px;
+        font-size: 100px;
+        margin-left: 30px;
     }
     
     
@@ -550,7 +557,9 @@ line-height: 19px;
         justify-content: space-between;
     }
     
-    .guy{
+    .guy img{
+        width: 300px;
+        height: 380px;
         position: relative;
         left: 40px;
     }
@@ -560,14 +569,15 @@ line-height: 19px;
 .wel-get{
     position: relative;
     right: 120px;
-    margin-bottom: 20px;
+    margin-top: 100px;
+    margin-left: 180px;
  }
 
  .wel-get h3{
-    font-size: small;
+    font-size: 8px;
  }
  .get-start{
-     width: 400px;
+     width: 250px;
      margin-top: 20px;
      margin-left: 5px;
      display: flex;
@@ -576,6 +586,7 @@ line-height: 19px;
 
  .past-mock{  
      height: 800px;
+   
      display: flex;
      flex-direction: column;
      justify-content: space-around;
@@ -598,8 +609,14 @@ line-height: 19px;
   height:  70px;
  }
 
+ .affor{
+    border: none;
+ }
  /* main */
- 
+ .best h3{
+    position: relative;
+    bottom: 0px;
+ }
  
  .chocate{
     width: 100%;
@@ -608,13 +625,19 @@ line-height: 19px;
      flex-direction: column;
      position: relative;
      right: 100px;
+    }
+    .cate img{
+       width: 200px;
+      position: absolute;
+       bottom: 350px;
  }
- 
  .chose{
-    width: 400px;
-     font-size: large;
+    width: 280px;
+     font-size: small;
      color: #000513;
      border: none;
+     position: relative;
+     bottom: 100px;
  }
   
     .prefer{
@@ -624,25 +647,28 @@ line-height: 19px;
         flex-direction: column;
         position: relative;
         right: 100px;
+        bottom: 80px;
     }
     
     .sele{
-        width: 400px;
-        margin-top: 20px;
-        position: relative;
-        right: 30px;
-        font-size: large;
+        width: 280px;
+        left: 30px;
+        font-size: small;
         color: #000513;
         border: none;
 
     }
     .lappy{
-        /* margin-top: 50px; */
-        margin-left: 110px;
+        margin-left: 70px;
+        position: relative;
+        bottom: 80px;
+    }
+    .lappy img{
+        width: 250px;
+        height: 200px;
     }
     
     .attexam{
-        width: 100%;
         height: 550px;
         display: flex;
         flex-direction: column;
@@ -650,17 +676,22 @@ line-height: 19px;
         right: 200px;
     }
     
-    .attend{
-        margin-left: 100px;
+    .attend img{
+        width: 250px;
+        height: 250px;
+        margin-left: 5px;
+        position: relative;
+        bottom: 50px;
     }
     .attex{
-        width: 400px;
+        width: 280px;
         margin-left: 150px;
         margin-top: 20px;
-        font-size: large;
+        font-size: small;
         color: #000513;
         border: none;
-
+       position: relative;
+       bottom: 100px;
     }
     
     .joyful{
@@ -670,20 +701,24 @@ line-height: 19px;
         flex-direction: column;
         position: relative;
         right: 180px;
+        bottom: 100px;
     }
     .smile{
-        width: 400px;
+        width: 280px;
         position: relative;
         left: 25px;
-        font-size: large;
+        font-size: small;
         color: #000513;
     }
-    .joy{
-        margin-left: 220px;
+    .joy img{
+        width: 200px;
+        height: 200px;
+        margin-left: 200px;
+        position: relative;
+        left: 20px;
     }
     
     .app{
-        margin-top: 50px;
         width:  100%;
         height: 800px;
         display: flex;
@@ -691,6 +726,7 @@ line-height: 19px;
         justify-content: space-around;
         align-items: center;
         background-color: #002099;
+        
     }
    
     .app-home{
@@ -716,22 +752,24 @@ line-height: 19px;
     .whats{
         border: none;
     }
-    .popular{
+    .popular h2{
         color: #0B2239;
-        margin-top: 80px;
+        font-size: 25px;
+
     }
  
     .popular p{
-        margin-left:  10px;
+        margin-left:  0px;
         width: 400px;
+        font-size: 10px;
     }
     
     .line-1{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-left: 100px;
-        
+        margin-left: 30px;
+      
     }
     
     .neco-1{
@@ -755,11 +793,11 @@ line-height: 19px;
         justify-content: space-between;
     }
     .afriplat{
-            margin-top: 50px;
+        position: relative;
     }
     .afriplat h2{
         position: relative;
-        right: 400px;
+        right: 450px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -776,12 +814,12 @@ line-height: 19px;
     
     .frame{
         width: 0px;
-        height: 300px;
+        height: 100px;
         margin-left: 150px;
         display: flex;
         justify-content: center;
-        background-image: url(book-library-with-old-open-textbook-stack-piles-literature-text-archive-reading-desk.jpg);
-        visibility: hidden;
+        position: relative;
+        left: 40px;
     }
     
     /* footer */
@@ -818,4 +856,5 @@ line-height: 19px;
         font-size: 15px;
         line-height: 23px;
    }
+ 
 }

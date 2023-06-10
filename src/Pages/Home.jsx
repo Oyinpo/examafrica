@@ -59,8 +59,8 @@ const Home = () => {
                             <div className='wel-get'>
                                     <h3>Welcome to the Exams.Africa, we will open the world of knowlegde for you! <br /> This is the latest online examination system you will ever need to attain success.</h3>
                                     <div className='get-start'>
-                                        <button style={{background: "#1178FF", color: 'white', borderRadius: '2px', border: "none", width:'177px',height:'40px',fontFamily: 'Mulish sansSerif' }}>Get Started</button>
-                                        <button style={{background: "white", color: '#1178FF', borderRadius: '2px', borderColor: "#1178FF", width:'177px',height:'40px',fontFamily: 'Mulish sansSerif'}}>Start Practicing</button>    
+                                        <button style={{background: "#1178FF", color: 'white', borderRadius: '2px', border: "none", width:'120px',height:'40px',fontFamily: 'Mulish sansSerif' }}>Get Started</button>
+                                        <button style={{background: "white", color: '#1178FF', borderRadius: '2px', borderColor: "#1178FF", width:'120px',height:'40px',fontFamily: 'Mulish sansSerif'}}>Start Practicing</button>    
                                      </div>            
                             </div>
                         </div>
@@ -265,7 +265,7 @@ const Home = () => {
                     </div>
                 </div>
             </main>
-            <footer>
+            <footer className='footer'>
                 <div className='foot'>
                     <div className='main-foot'>
                         <div>
