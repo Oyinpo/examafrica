@@ -478,8 +478,9 @@ line-height: 19px;
     flex-direction: column;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
     .guy-exam{
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
@@ -488,7 +489,7 @@ line-height: 19px;
         height: 150px;
         margin-top: 180px;
         position: relative;
-        right: 80px;
+        right: 110px;
         display: flex;
         justify-content: space-evenly;
     }
@@ -497,8 +498,8 @@ line-height: 19px;
         font-size: 60px;        
     }
     .practice img{
-        width: 80px;
-        height: 80px;
+        width: 75px;
+        height: 75px;
         margin-left: 15px;
     }
     .prepare{
@@ -506,22 +507,23 @@ line-height: 19px;
         height: 150px;
         margin-top: 50px;
         margin-bottom: 20px;
-        margin-left: 10px;
         display: flex;
         justify-content: space-evenly;
+        position: relative;
+        right: 150px;
     }
     .prepare h1{
         font-size: 60px;
     }
     .prepare img{
-        width: 80px;
-        height: 80px;
+        width: 75px;
+        height: 75px;
         margin-left: 15px;
     }
     .excel{
         width: 400px;
         height: 150px;
-        margin-left: 20px;
+        margin-left: 1px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -585,8 +587,8 @@ line-height: 19px;
  }
 
  .past-mock{  
+    width: 100%;
      height: 800px;
-   
      display: flex;
      flex-direction: column;
      justify-content: space-around;
@@ -613,6 +615,10 @@ line-height: 19px;
     border: none;
  }
  /* main */
+
+ .exalab{
+    width: 100%;
+ }
  .best h3{
     position: relative;
     bottom: 0px;
@@ -651,12 +657,12 @@ line-height: 19px;
     }
     
     .sele{
-        width: 280px;
-        left: 30px;
+        width: 270px;
         font-size: small;
         color: #000513;
         border: none;
-
+        position: relative;
+        right: 20px;
     }
     .lappy{
         margin-left: 70px;
@@ -673,7 +679,7 @@ line-height: 19px;
         display: flex;
         flex-direction: column;
         position: relative;
-        right: 200px;
+        right: 250px;
     }
     
     .attend img{
@@ -752,19 +758,25 @@ line-height: 19px;
     .whats{
         border: none;
     }
+    .popular{
+        width: 100%;
+    }
     .popular h2{
         color: #0B2239;
         font-size: 25px;
-
+        position: relative;
+        right: 50px;
     }
  
     .popular p{
-        margin-left:  0px;
-        width: 400px;
-        font-size: 10px;
+        width: 280px;
+        font-size: 13px;
+        position: relative;
+        right: 50px;
     }
     
     .line-1{
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -793,11 +805,12 @@ line-height: 19px;
         justify-content: space-between;
     }
     .afriplat{
+        width: 100%;
         position: relative;
     }
     .afriplat h2{
         position: relative;
-        right: 450px;
+        right: 480px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -812,21 +825,25 @@ line-height: 19px;
         margin-bottom: 50px;
     }
     
-    .frame{
-        width: 0px;
+    .frame img{
+        width: 100%;
         height: 100px;
-        margin-left: 150px;
+        margin-left: 50px;
         display: flex;
         justify-content: center;
         position: relative;
-        left: 40px;
+        right: 30px;
     }
     
     /* footer */
-
+    .footex{
+        width: 100%;
+        position: relative;
+        right: 80px;
+    }
     .know{
         position: relative;
-        right: 170px;
+        right: 250px;
     }
     .socials{
         margin-right: 20px;
@@ -836,13 +853,38 @@ line-height: 19px;
         
     }
     .main-foot{
-        width: 420px;
-        font-size: medium;
+        width: 400px;
+        font-size: small;
         font-weight: 100;
         justify-content: space-between;
     }
+
+    .main-foot h4{
+        font-size: 15px;
+        position: relative;
+        right: 75px;
+    }
+    .main-foot h6{
+        font-size: 13px;
+        position: relative;
+        right: 75px;
+    }
+   
+    .fofaq a{
+        font-size: 15px;
+        position: relative;
+        right: 75px;
+    }
+    .foot-home a{
+        font-size: 15px;
+        position: relative;
+        right: 75px;
+    } 
+    .foot-blog a{
+        position: relative;
+        right: 75px;
+    }
     .rights{
-    
         height: 50px;
         display: flex;
         align-items: center;
@@ -856,5 +898,4 @@ line-height: 19px;
         font-size: 15px;
         line-height: 23px;
    }
- 
 }

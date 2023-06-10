@@ -70,7 +70,7 @@
     }
     
     .logo{
-        width: 30%;
+     
         position: relative;
         right: 120px;       
         justify-content: center;
@@ -87,7 +87,6 @@
     }
     
     .pages{
-        width: 80%;
         height: 100px;
         position: relative;
         right: 100px;

@@ -85,7 +85,7 @@ const Home = () => {
                     </div>
               </div>
               <main>
-                <div>
+                <div className='exalab'>
                      <div className='best'>
                         <h3>Why ExaLab Is Best?</h3>
                      </div>
@@ -268,7 +268,7 @@ const Home = () => {
             <footer className='footer'>
                 <div className='foot'>
                     <div className='main-foot'>
-                        <div>
+                        <div className='foot-home'>
                             <h4>Main</h4>
                             <Link to="/">Home</Link>
                          </div>
@@ -283,7 +283,7 @@ const Home = () => {
                             <h6>Past Questions</h6>
                             <h6>Subjects</h6>
                         </div>
-                        <div>
+                        <div className='foot-blog'>
                             <h4>Informative</h4>
                             <Link to="/blog">Blog</Link>
                         </div>

@@ -94,7 +94,7 @@
 
 @media screen and (max-width:500px) {
     .blog{
-        width: 400px;
+        width: 350px;
         height: 250px;
         margin-left: 10px;
         margin-top: 30px;
@@ -113,6 +113,9 @@
         margin-top: 50px;
     }
     
+    .blog h6{
+        font-size: 10px;
+    }
     .book{
         width: 400px;
         margin-left: -50px;
@@ -120,7 +123,7 @@
         padding: 5px;
     }
     .book img{
-        width: 450px;
+        width: 400px;
     }
     .book h2{
         margin-top: 20px;
@@ -146,12 +149,67 @@
         margin-left: 10px;
         display: flex;
         flex-direction: column;
+    } /* footer */
+    .footex{
+        width: 100%;
+        position: relative;
+        right: 80px;
     }
-    
-    .foot{
-        margin-top: 50px;
-        padding-bottom: 50px;
+    .know{
+        position: relative;
+        right: 250px;
     }
-    
+    .socials{
+        margin-right: 20px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .main-foot{
+        width: 400px;
+        font-size: small;
+        font-weight: 100;
+        justify-content: space-between;
+    }
 
+    .main-foot h4{
+        font-size: 15px;
+        position: relative;
+        right: 75px;
+    }
+    .main-foot h6{
+        font-size: 13px;
+        position: relative;
+        right: 75px;
+    }
+   
+    .fofaq a{
+        font-size: 15px;
+        position: relative;
+        right: 75px;
+    }
+    .foot-home a{
+        font-size: 15px;
+        position: relative;
+        right: 75px;
+    } 
+    .foot-blog a{
+        position: relative;
+        right: 75px;
+    }
+    .rights{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        background-color: #002099;
+    }
+   .rights h5{
+        position: relative;
+        right: 130px;
+        font-weight: 100;
+        font-size: 15px;
+        line-height: 23px;
+   }
 }

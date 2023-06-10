@@ -155,7 +155,7 @@
 
 @media screen and (max-width:500px) {
     .faq-top{
-        width: 400px;
+        width: 350px;
         height: 250px;
         margin-left: 10px;
         margin-top: 100px;
@@ -167,10 +167,14 @@
     .faq-top h2{
         margin-top: 20px;
         margin-bottom: 20px;
+        font-size: 40px;
     }
     
     .faq-top h4{
         margin-top: 50px;
+    }
+    .faq-top h6{
+        font-size: 10px;
     }
     .register{
         width: 400px;
@@ -207,12 +211,21 @@
     
     .feed{
         width: 400px;
-        margin-left: 100px;
+        margin-left: 40px;
         margin-top: 50px;
         display: flex;
        justify-content: center;
+       font-size: 15px;
+       
     }
     
+    .line3{
+        width: 70px;
+        border-bottom: 1px solid #5C5C5C;
+        position: relative;
+        right: 200px;
+        top: 12px;
+    }
     .view{
         width: 180px;
         height: 50px;
@@ -230,43 +243,67 @@
         margin-left: 50px;
         display: flex;
     }
-    
-    .foot{
-        margin-top: 50px;
-        padding-bottom: 50px;
+     /* footer */
+     .footex{
+        width: 100%;
+        position: relative;
+        right: 80px;
     }
-    
-    .main-foot{
-        padding: 50px;
-        display: flex;
-        justify-content: center;
-        justify-content: space-evenly;
-       
-    }
-    
-    .footex{
-        display: flex;
-        justify-content: center;
-    }
-    
     .know{
-        width: 60%;
-        margin-left: 280px;
+        position: relative;
+        right: 250px;
     }
-    
     .socials{
+        margin-right: 20px;
+        margin-top: 20px;
         display: flex;
         justify-content: center;
+        
     }
-    
+    .main-foot{
+        width: 400px;
+        font-size: small;
+        font-weight: 100;
+        justify-content: space-between;
+    }
+
+    .main-foot h4{
+        font-size: 15px;
+        position: relative;
+        right: 75px;
+    }
+    .main-foot h6{
+        font-size: 13px;
+        position: relative;
+        right: 75px;
+    }
+   
+    .fofaq a{
+        font-size: 15px;
+        position: relative;
+        right: 75px;
+    }
+    .foot-home a{
+        font-size: 15px;
+        position: relative;
+        right: 75px;
+    } 
+    .foot-blog a{
+        position: relative;
+        right: 75px;
+    }
     .rights{
+        height: 50px;
         display: flex;
+        align-items: center;
         color: #FFFFFF;
         background-color: #002099;
     }
-    .rights h5{
-        margin-left: 150px;
-    }
-    
-
+   .rights h5{
+        position: relative;
+        right: 130px;
+        font-weight: 100;
+        font-size: 15px;
+        line-height: 23px;
+   }
 }
