@@ -17,10 +17,16 @@ import play from '../assets/Group 16(1).png'
 import tele from '../assets/Group 17(1).png'
 import whats from '../assets/Group 18(1).png'
 import frame from '../assets/Group 1560.png'
-import exma from '../assets/exams 1.png'
-import socials from '../assets/Group 1283.png'
 import {BiChevronsRight} from 'react-icons/bi'
 import { Link } from 'react-router-dom';
+// import {AiFillTwitterCircle} from 'react-icons/ai'
+// import {BsFacebook} from 'react-icons/bs'
+// import { FaInstagram, FaLinkedinIn} from 'react-icons/fa'
+// import home from '../assets/exams 2.png'
+import exma from '../assets/exams 1.png'
+import socials from '../assets/Group 1283.png'
+
+
 
 
 const Home = () => {
@@ -57,7 +63,7 @@ const Home = () => {
                                     </div>
                             </div>
                             <div className='wel-get'>
-                                    <h3>Welcome to the Exams.Africa, we will open the world of knowlegde for you! <br /> This is the latest online examination system you will ever need to attain success.</h3>
+                                    <h3>Welcome to the Exams.Africa, we will open the world of knowledge for you! <br /> This is the latest online examination system you will ever need to attain success.</h3>
                                     <div className='get-start'>
                                         <button style={{background: "#1178FF", color: 'white', borderRadius: '2px', border: "none", width:'120px',height:'40px',fontFamily: 'Mulish sansSerif' }}>Get Started</button>
                                         <button style={{background: "white", color: '#1178FF', borderRadius: '2px', borderColor: "#1178FF", width:'120px',height:'40px',fontFamily: 'Mulish sansSerif'}}>Start Practicing</button>    
@@ -265,10 +271,11 @@ const Home = () => {
                     </div>
                 </div>
             </main>
-            <footer className='footer'>
+          {/* //footer */}
+          <footer>
                 <div className='foot'>
                     <div className='main-foot'>
-                        <div className='foot-home'>
+                        <div className='MF1'>
                             <h4>Main</h4>
                             <Link to="/">Home</Link>
                          </div>
@@ -283,7 +290,7 @@ const Home = () => {
                             <h6>Past Questions</h6>
                             <h6>Subjects</h6>
                         </div>
-                        <div className='foot-blog'>
+                        <div className='MF1'>
                             <h4>Informative</h4>
                             <Link to="/blog">Blog</Link>
                         </div>

@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+  }
+
 @font-face {
     font-family: 'Clash Display Variable';
     src: url("./ClashDisplay-Variable.ttf");
@@ -33,7 +39,7 @@
     padding: 30px;
     margin-left: 200px;
     border-left: 5px solid #002099;
-    /* line-height: 1.5px; */
+    line-height: 0.9em;
     color: #00070F;
 }
 
@@ -196,7 +202,7 @@
 }
 
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:780px) {
     .contact{
         display: flex;
         flex-direction: column;

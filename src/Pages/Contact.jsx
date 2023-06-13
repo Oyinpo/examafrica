@@ -73,7 +73,7 @@ import { Link } from 'react-router-dom';
             <footer>
                 <div className='foot'>
                     <div className='main-foot'>
-                        <div>
+                        <div className='MF1'>
                             <h4>Main</h4>
                             <Link to="/">Home</Link>
                          </div>
@@ -88,7 +88,7 @@ import { Link } from 'react-router-dom';
                             <h6>Past Questions</h6>
                             <h6>Subjects</h6>
                         </div>
-                        <div>
+                        <div className='MF1'>
                             <h4>Informative</h4>
                             <Link to="/blog">Blog</Link>
                         </div>
